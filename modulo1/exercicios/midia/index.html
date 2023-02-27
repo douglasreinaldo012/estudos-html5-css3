@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias dinamicas</title>
+</head>
+<body>
+    <h1>Imagem em HTML5</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/fotop.png" type="image/png">
+        
+        <source media="(max-width:1050px )" srcset="imagem/fotom.png" type="image/png">
+
+        <img src="imagem/fotog.png" alt="imagem flexivel">
+        
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>É possivel reproduzir um audio de maneira mais simples:</p>
+    <audio src="midia/sombuzina.mp3" controls autoplay></audio>
+    <p>também é possível adicionar audioa de outra forma ,usando outras opções de formatos:</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/sombuzina.mp3" type="audio/mpeg">
+        <source src="midia/sombuzina.ogg" type="audio/ogg">
+        <source src="midia/sombuzina.wav" type="audio/wav">
+        <p>caso não consiga reproduzir o audio baixe no link. <a href="midia/sombuzina.mp3">BaixeAqui</a></p>
+
+    </audio>
+    
+</body>
+</html>

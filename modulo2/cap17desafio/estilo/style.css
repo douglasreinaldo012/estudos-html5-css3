@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+
+@font-face {
+    font-family:'PartybyTom';
+    src:url('../fontes/PartybyTom.TTF') format('TrueType');
+    font-weight: normal;
+}
+/*patela de cores #73F01A #2642F0 #F0E90E(referencia) #E526F0 #F0B802*/
+:root{
+    --cor1:#73F01A;
+    --cor2: #1ae6e6;
+    --cor3: #F0E90E;
+    --cor4: #E526F0;
+    --cor5: #F0B802;
+    
+    --fonte-padrao:Arial,Verdana,Helvetica,sans-serif;
+    --fonte-destaque:'PartybyTom', cursive;
+    --fonte-carnamimosa:'Baloo Bhaina 2', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background-color: rgb(228, 221, 221);
+}
+body h1{
+    text-align: center;
+}
+a.externo::after{
+    content: '\1F517';
+}
+header{
+    background-image: linear-gradient( to bottom,var(--cor5),var(--cor3));
+     min-height: 150px;
+     padding-top: 0px;
+     text-align: center;
+     
+ }
+ header > h1{
+     
+     font-family:var(--fonte-carnamimosa);
+     color:var(--cor4);
+     text-align: center;
+     margin-bottom: 10px;
+     padding-top: 40px;
+     text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.452);
+ }
+ header p{
+     font-family: var(--fonte-carnamimosa);
+     color: #E526F0;
+     font-size: 1.2em;
+     max-width: 600px;
+     padding-right: 10px;
+     padding-left: 10px;
+     margin: auto;
+ }
+ nav {
+     background-color: #E526F0;
+ }
+ nav > a {
+     font-family: var(--fonte-carnamimosa);
+     color:#F0E90E;
+     padding: 5px;
+     text-decoration: none;
+     font-weight: bold;
+     
+ }
+ nav > a:hover{
+     background-color: #f05ef8;
+     color:var(--cor1);
+     border-radius: 10px;
+ }
+main{
+  
+   background-color: white;
+   min-width: 280px;
+   max-width: 800px;
+   margin: auto;
+   margin-bottom: 30px;
+   padding: 20px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;   
+}
+main h1{
+font-family: var(--fonte-carnamimosa);
+color:var(--cor5);
+text-align: center;
+}
+main article h1 > strong{
+    font-family: var(--fonte-carnamimosa);
+    color: var(--cor4);
+    
+}
+main h2{
+    color: var(--cor4);
+    font-family: var(--fonte-carnamimosa);
+    background-image: linear-gradient(to right,var(--cor2),transparent);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+}
+main article p strong {
+    color:var(--cor1);
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 20px;
+}
+main article p a {
+    color:var(--cor4);
+    font-weight: bold;
+    padding: 2px 6px;
+    background-color: var(--cor1);
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    font-size: 1em;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+}
+main article h3.pb {
+    font-family: var(--fonte-carnamimosa);
+    color:var(--cor4);
+    background-image: linear-gradient(to right,var(--cor2),transparent);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    
+}
+div.video{
+    background-color: #F0B802;
+    margin: 0px -20px 20px -20px;
+    padding: 10px;
+    padding-bottom: 58.5%;
+    position: relative;
+
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+img {
+    width: 100%;
+}
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.459);
+}
+main article aside h3.pr{
+    background-color:rgb(65, 140, 143);
+    font-family: var(--fonte-carnamimosa);
+    color:var(--cor3);
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+main article aside p.paside{
+    color:#E526F0;  
+    
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type:'\1F3AD\00A0\00A0';  
+}
+aside ul li abbr{
+    text-decoration: none;
+    color: #E526F0;
+}   
+footer {
+    
+    background-color:#E526F0;
+    color:#F0B802;
+    padding: 5px;
+    font-size: 1em;
+    text-align: center;
+}

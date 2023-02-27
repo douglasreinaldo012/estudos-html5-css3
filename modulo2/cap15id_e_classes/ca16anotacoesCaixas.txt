@@ -1,0 +1,39 @@
+MODELO DE CAIXAS /CAP 16 
+height=altura
+width=largura
+border=borda
+padding=espaçamento de dentro
+margin=espaçamento de fora
+outline= contorno /traçado
+
+Existe dois tipos de caixas
+1)box-level
+quebra a linha, pula para proxima e inicia a proxima 
+caixa em uma linha nova.
+tags de exemplo:
+<div>
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<ascid>
+<footer>
+<form>
+<video>
+2)inline-level
+não quebra a linha , inicia
+a proxima caixa na mesma linha
+tags de exemplo:
+<span>
+<a>
+<code>
+<small>
+<strong>
+<em>
+<sup>-<sub>
+<label>
+<button>
+<input>
+<select>

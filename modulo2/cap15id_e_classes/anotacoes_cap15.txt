@@ -1,0 +1,21 @@
+Anotações para passar pro caderno
+aula psudo-classes
+As psudo-classes devem estar relacionadas a um elemento
+ou a uma classe, são relacionadas a um estado
+de um determinado elemento,atarvés delas é
+possivel alterar o estado de determinado ele-
+mento
+exemplo:
+hover: significa que vai mudar o estado 
+quando eu passar o maouse por cima.
+
+o psudo-elemento mexe diretamente no conteudo
+periferico do elemento.
+
+simbolos importantes para criar seletores
+personalizados.
+# = id
+. = class
+: = pseudo-class
+::= psudo-element
+> = children(filho)

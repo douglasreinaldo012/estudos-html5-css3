@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        h1 { 
+          
+           
+            
+        }
+        header{
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+
+
+        }
+        main > h3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+        nav{
+            background-color: rgb(104, 103, 103);
+            padding: 3px;
+            box-shadow: 1px 2px 6px 1px #0e0e0e9a;
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav >a:hover{
+            text-decoration: underline;
+            color: yellow;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            font-weight: lighter;
+        }
+        article > aside{
+            background-color: rgb(134, 133, 133);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin:0px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <h3>Esportes Política Tecnologia<h3>
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed nobis fugiat odit modi labore veniam reiciendis, aspernatur autem vitae nihil cumque voluptatum accusantium consectetur voluptatem odio ipsam, in itaque!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Noticia sobre o Esporte</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique at cumque magni ducimus omnis veritatis ad sequi debitis architecto, culpa doloribus. Similique laboriosam voluptate placeat necessitatibus commodi illo cupiditate perspiciatis.</p>
+                <aside>Artigo escrito por reporter Diego</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Douglas Reinaldo</p>
+    </footer>
+</body>
+</html>
