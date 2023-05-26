@@ -1,6 +1,7 @@
 table {
     border-collapse: collapse;
     width: 400px;
+    position: relative;
 }
 thead{
     background: gray;
@@ -15,4 +16,12 @@ caption {
     background: rgb(224, 224, 4);
     padding: 10px;
     border: 1px solid black;
+}
+tbody > tr:nth-child(2n){
+    background: #8d8c8c97;
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: gray;
 }
