@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 4 tabelas</title>
+    <style>
+        
+        table {
+            border-collapse: collapse;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            color:rgb(7, 12, 16);
+            width: 700px;
+            
+        }
+        caption {
+            border: 1px solid black;
+            background-color: rgba(37, 43, 48, 0.818);
+            padding: 10px;
+        }
+        tr , td , th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .tr1{
+            
+            background:rgba(37, 43, 48, 0.818);
+            color:aliceblue;
+            text-align: left;
+        }
+        .td1{
+            text-align: center;
+            background:rgba(37, 43, 48, 0.818);
+        }
+        .cnome {
+            background-color: rgb(40, 203, 19);
+        }
+        .knome {
+            background-color: rgb(172, 26, 80);
+        }
+        .ccontato {
+            background-color: aqua;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Cadastro de Pessoas</caption>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cprof">
+        <col class="ccontato">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+            <th>contato</th>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>M</td>
+            <td>Menor de idade</td>
+            <td>(00)00000-0000</td>
+        </tr>
+        <tr>
+            <td class="knome">Katharine</td>
+            <td>F</td>
+            <td>Atendente</td>
+            <td>(00)00000-0000</td>
+        </tr>
+        <tr>
+            <td>Douglas</td>
+            <td>M</td>
+            <td>Caixa</td>
+            <td>(00)00000-0000</td>
+        </tr>
+    </table>
+</body>
+</html>
