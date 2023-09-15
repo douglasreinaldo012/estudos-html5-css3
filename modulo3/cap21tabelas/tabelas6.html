@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+        
+        table {
+            border-collapse: collapse;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            color:rgb(7, 12, 16);
+            width: 700px;
+            
+        }
+        caption {
+            border: 1px solid black;
+            background-color: rgba(21, 202, 42, 0.818);
+            padding: 10px;
+        }
+        tr , td , th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .tr1{
+            
+            background:rgba(37, 43, 48, 0.818);
+            color:aliceblue;
+            text-align: left;
+        }
+        .td1{
+            text-align: center;
+            background:rgba(37, 43, 48, 0.818);
+        }
+        .cnome {
+            background-color: rgb(40, 203, 19);
+        }
+        .knome {
+            background-color: rgb(172, 26, 80);
+        }
+        .ccontato {
+            background-color: aqua;
+        }
+        div#container{
+            overflow-x:auto ;
+        }
+        
+        .g4{
+            background-color: rgb(20, 217, 27);
+        }
+        .rebaixamento{
+            background-color: rgb(245, 12, 12);
+        }
+        .cclassificacao{
+            background-color: rgb(255, 217, 0)!important;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Tabelas Responsivas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatum quasi saepe quo odio dolore excepturi? Amet ipsum ea, repellat, corrupti distinctio quo accusamus reprehenderit temporibus voluptate voluptates at hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque omnis corporis ipsum magnam amet? Quibusdam totam animi hic eligendi voluptates reprehenderit itaque dolorum. Iusto suscipit ipsa nulla quod veniam in!</p>
+    <div id="container">
+        <table>
+            <caption>Classificação Brasileirão 2023</caption>
+            <colgroup>
+            <col class="cclassificacao">
+            </colgroup>
+            <theader>
+                <tr>
+                    <th> </th>
+                    <th>Times</th>
+                    <th>Pontos</th>
+                    <th>Partidas</th>
+                    <th>Gols feitos</th>
+                    <th>Gols Sofridos</th>
+                </tr>
+            </theader>
+            <tbody>
+                    <tr class="g4">
+                        <th>1°</th>
+                        <td>Botafogo</td>
+                        <td>51</td>
+                        <td>35</td>
+                        <td>50</td>
+                        <td>25</td>
+                    </tr>
+                    <tr class="g4">
+                        <th>2°</th>
+                        <td>Flamengo</td>
+                        <td>45</td>
+                        <td>35</td>
+                        <td>50</td>
+                        <td>25</td>
+                    </tr>
+                    <tr class="g4">
+                        <th>3°</th>
+                        <td>Palmeiras</td>
+                        <td>41</td>
+                        <td>35</td>
+                        <td>50</td>
+                        <td>25</td>
+                    </tr>
+                    <tr class="g4">
+                        <th>4°</th>
+                        <td>Bahia</td>
+                        <td>38</td>
+                        <td>35</td>
+                        <td>50</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <th>5°</th>
+                        <td>Vasco</td>
+                        <td>37</td>
+                        <td>35</td>
+                        <td>50</td>
+                        <td>25</td>
+                    </tr>
+                    <tr class="rebaixamento">
+                        <th>6°</th>
+                        <td>São Paulo</td>
+                        <td>37</td>
+                        <td>35</td>
+                        <td>50</td>
+                        <td>25</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
